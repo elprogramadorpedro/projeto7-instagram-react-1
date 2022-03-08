@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  margin: 54px 0 0;
+  font-family: "Roboto", sans-serif;
+  color: #262626;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stories {
+  display: flex;
+  align-items: center;
+  height: 118px;
+  border-radius: 3px;
+  border: 1px solid #dbdbdb;
+  padding: 0 18px;
+  overflow: hidden;
+  position: relative;
+}
+
+.story {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 14px 0;
+  font-size: 12px;
+  cursor: pointer;
+  margin-right: 10px;
+}

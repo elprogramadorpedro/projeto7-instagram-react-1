@@ -1,0 +1,39 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 54px;
+  border-bottom: 1px solid #dbdbdb;
+  font-size: 22px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.navbar__logo {
+  display: flex;
+}
+
+.separador {
+  width: 1px;
+  height: 22px;
+  background-color: #dbdbdb;
+  margin: 0 10px;
+}
+
+.navbar input {
+  text-align: center;
+}
+
+.navbar__icones {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar ion-icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
