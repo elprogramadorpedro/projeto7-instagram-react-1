@@ -1,0 +1,45 @@
+.stories {
+  display: flex;
+  align-items: center;
+  height: 118px;
+  border-radius: 3px;
+  border: 1px solid #dbdbdb;
+  padding: 0 18px;
+  overflow: hidden;
+  position: relative;
+}
+
+.story {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 14px 0;
+  font-size: 12px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.story .img_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 66px;
+  width: 66px;
+  background-image: url("http://localhost:3000/img/story-circle.svg");
+}
+
+.story .img_wrapper img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.story .username {
+  width: 66px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  height: 14px;
+}

@@ -1,6 +1,6 @@
 import NavBarIcon from "./NavBarIcon.jsx";
 import NavBarOptions from "./NavBarOptions.jsx";
-import "../css/navbar.css";
+import "../../css/navbar.css";
 
 export default function NavBar() {
   return (
