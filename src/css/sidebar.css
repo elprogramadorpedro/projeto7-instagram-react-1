@@ -1,0 +1,87 @@
+aside {
+  position: sticky;
+  top: 88px;
+  width: 25vw;
+  padding-left: 10vw;
+}
+
+aside > .user {
+  display: flex;
+  align-items: center;
+}
+
+aside > .user img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+aside > .user .text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 14px;
+  font-weight: 300;
+  color: #8e8e8e;
+}
+
+aside > .user .text strong {
+  font-weight: 500;
+  color: #262626;
+}
+
+aside .suggestions .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 14px;
+}
+
+aside .suggestions .suggestion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  height: 31px;
+  margin-bottom: 16px;
+}
+
+aside .suggestions .suggestion .user {
+  display: flex;
+}
+
+aside .suggestions img {
+  width: 32px;
+  height: 32px;
+}
+
+aside .suggestions .follow {
+  color: #139ef2;
+  font-weight: 600;
+}
+
+aside .suggestions .suggestion .user .text {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+aside .suggestions .suggestion .user .text :last-child {
+  color: #8e8e8e;
+  font-weight: 400;
+}
+
+.links,
+.copyright {
+  font-size: 11px;
+  color: #c7c7c7;
+}
+
+.links {
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.copyright {
+  margin-top: 18px;
+}

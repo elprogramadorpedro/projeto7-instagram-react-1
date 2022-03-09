@@ -14,5 +14,11 @@ body {
 
 .page_body {
   display: flex;
-  justify-content: space-around;
+  margin-top: 14vh;
+  margin-left: 15vw;
+}
+
+main {
+  width: 45vw;
+  margin-right: 2vw;
 }

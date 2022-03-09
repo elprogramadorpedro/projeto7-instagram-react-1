@@ -2,7 +2,7 @@ export default function Post(props) {
   return (
     <article className="post">
       <div className="top">
-        <div class="user">
+        <div className="user">
           <img src={props.userAvatar} alt="userAvatar" />
           {props.username}
         </div>

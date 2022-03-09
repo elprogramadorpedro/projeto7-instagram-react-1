@@ -22,6 +22,7 @@ export default function Posts() {
           postImg={post.postImg}
           likedByImg={post.likedByImg}
           likedByUser={post.likedByUser}
+          key={index}
         />
       ))}
     </section>

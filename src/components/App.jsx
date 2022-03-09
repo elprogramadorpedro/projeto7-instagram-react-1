@@ -1,5 +1,6 @@
 import NavBar from "./navbar/NavBar";
 import Main from "./Main.jsx";
+import Sidebar from "./sidebar/Sidebar.jsx";
 
 export default function App() {
   return (
@@ -7,7 +8,7 @@ export default function App() {
       <NavBar />
       <div className="page_body">
         <Main />
-        <aside>This is the sidebar</aside>
+        <Sidebar />
       </div>
     </>
   );
