@@ -52,7 +52,7 @@ export default function Posts(props) {
 					postImg={post.img}
 					likedByImg={post.likedByImg}
 					likedByUser={post.likedByUser}
-					key={props.id}
+					key={post.id}
 				/>
 			))}
 		</section>

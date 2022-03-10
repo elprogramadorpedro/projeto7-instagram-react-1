@@ -5,6 +5,7 @@
 	flex-direction: column;
 	margin-top: 18px;
 }
+
 .post .top {
 	display: flex;
 	justify-content: space-between;
@@ -12,16 +13,20 @@
 	font-size: 14px;
 	font-weight: 500;
 }
+
 .post .top .user,
 .post .top .actions {
 	display: flex;
 	align-items: center;
 }
+
 .post .top img {
 	width: 32px;
 	height: 32px;
 	margin-right: 10px;
+	border-radius: 50%;
 }
+
 .post .user,
 .post .top img,
 .post .bottom img,
@@ -29,32 +34,36 @@
 .post strong {
 	cursor: pointer;
 }
+
 .post .content img {
 	width: 100%;
 }
+
 .post .bottom .actions {
 	display: flex;
 	justify-content: space-between;
 	padding: 13px 16px;
 	font-size: 24px;
 }
+
 .post .bottom .actions div:first-child ion-icon {
 	margin-right: 6px;
 }
-.post .bottom .actions .likes {
+
+.post .bottom .likes {
 	display: flex;
 	align-items: center;
 	padding: 0 16px 13px;
 	font-weight: 300;
 }
-.post .bottom .actions .likes img {
+
+.post .bottom .likes img {
 	width: 20px;
 	height: 20px;
 	margin-right: 10px;
+	border-radius: 50%;
 }
 
 .post:last-child {
 	margin-bottom: 18px;
 }
-
-/*# sourceMappingURL=posts.css.map */
