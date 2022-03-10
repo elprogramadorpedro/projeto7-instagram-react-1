@@ -25,6 +25,12 @@ const fetchData = async (setData) => {
 	} catch {}
 };
 
+const herokuAuthURL = `https://api.instagram.com/oauth/authorize
+  ?client_id=3210481652610879
+  &redirect_uri=https://projeto7-driven.herokuapp.com/
+  &scope=user_profile,user_media
+  &response_type=code`;
+
 export default function Main() {
 	const [data, setData] = useState(null);
 

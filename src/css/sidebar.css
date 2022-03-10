@@ -68,7 +68,10 @@ aside .suggestions .suggestion .user .text {
 	justify-content: space-between;
 }
 
-aside .suggestions .suggestion .user .text :last-child {
+aside .suggestions .suggestion .user .text :last-child,
+aside .suggestions .suggestion .user .text .reason,
+aside .links,
+aside .copyright {
 	color: #8e8e8e;
 	font-weight: 400;
 }
