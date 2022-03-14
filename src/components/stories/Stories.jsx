@@ -34,8 +34,12 @@ export default function Stories(props) {
   return (
     <section className="stories">
       {content.map((story, index) => (
-        <Story img={story.avatar} user={story.username} key={index} />
+        <Story img={story.media_url} user={story.username} key={index} />
       ))}
+
+      <div className="setinha">
+        <ion-icon name="chevron-forward-circle"></ion-icon>
+      </div>
     </section>
   );
 }
