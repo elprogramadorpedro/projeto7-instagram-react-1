@@ -43,3 +43,13 @@
   text-align: center;
   height: 14px;
 }
+
+.setinha {
+  position: absolute;
+  font-size: 2rem;
+  color: white;
+  top: 40px;
+  right: 5px;
+  cursor: pointer;
+  box-shadow: black;
+}

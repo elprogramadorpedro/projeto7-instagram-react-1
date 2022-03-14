@@ -45,13 +45,12 @@ export default function Posts(props) {
 
   return (
     <section className="posts">
-      {content.slice(0, 12).map((post, index) => (
+      {content.map((post, index) => (
         <Post
-          userAvatar={post.avatar}
           username={post.username}
-          postImg={post.img}
+          media_url={post.media_url}
           likedByImg={post.likedByImg}
-          likedByUser={post.likedByUser}
+          likedByUser={post.caption}
           key={index}
         />
       ))}
